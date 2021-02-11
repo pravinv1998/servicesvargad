@@ -16,13 +16,15 @@ const Contact = () => {
 
   const formSubmit = (e) => {
     e.preventDefault();
-    alert(`${data.name}`);
+    alert(
+      ` Hi ${data.name} \n ${data.email} \n ${data.phone} \n\n (Sorry! this is demo contact form) `
+    );
   };
 
   return (
     <div>
       <div className="my-5">
-        <h1 className="text-center"> Contact Us </h1>
+        <h1 className="text-center"> Contact Me </h1>
       </div>
       <div className="container contact_div">
         <div className="row">
